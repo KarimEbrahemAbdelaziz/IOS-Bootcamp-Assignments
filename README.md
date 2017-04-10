@@ -8,6 +8,6 @@ i choosed to implement and understand quick sort in more depth then before and i
 ## Second Session Assignments :
 ### Complete This [Task](https://codility.com/demo/take-sample-test/) On [Codility](https://codility.com/)
 this task is a problem we should implement a solution for it in swift programming language.
-and this is my [implementation]((https://github.com/KarimEbrahemAbdelaziz/IOS-Bootcamp-Assignments/blob/master/Second%20Session/Codility%20Task/CodilityEquiTask.playground/Contents.swift)) for it.
+and this is my [implementation](https://github.com/KarimEbrahemAbdelaziz/IOS-Bootcamp-Assignments/blob/master/Second%20Session/Codility%20Task/CodilityEquiTask.playground/Contents.swift) for it.
 ### Complete all functionality in Bull's Eye Game :
 Still Working On It :) .
