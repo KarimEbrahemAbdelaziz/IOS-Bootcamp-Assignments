@@ -102,7 +102,7 @@ class ViewController: UIViewController {
         
         // action is Button for alert shown on the screen
         let action = UIAlertAction(title: "Awesome", style: .default,
-                                   handler: { action in
+                                   handler: { functions_to_execute in
                                     self.startNewRound()
                                     self.updateLabels()})
         //let anotherAction = UIAlertAction(title: "secondAwesome", style: .default, handler: nil)
