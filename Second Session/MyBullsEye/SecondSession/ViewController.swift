@@ -67,7 +67,7 @@ class ViewController: UIViewController {
         // get difference between two values in case one is greater then one.
         let difference = abs(targetValue - currentValue)
         // this is the main points to add
-        var points = 100 - difference
+        var thisRoundPoints = 100 - difference
         
         // title for alert message depending on the points you get
         let alertTitle: String
@@ -75,11 +75,11 @@ class ViewController: UIViewController {
         switch difference {
         case 0:
             alertTitle = "Perfect"
-            points += 100
+            thisRoundPoints += 100
         case 1..<5:
             alertTitle = "Almost had it"
             if difference == 1 {
-                points += 50
+                thisRoundPoints += 50
             }
         case 5..<10:
             alertTitle = "Pretty good"
@@ -88,10 +88,10 @@ class ViewController: UIViewController {
         }
         
         // update the main score with new points
-        score += points
+        score += thisRoundPoints
         
         // this is the alert message for my alert
-        var alertMessage = "You scored \(points) points\n"
+        var alertMessage = "You scored \(thisRoundPoints) points\n"
         alertMessage += "Your Value is : \(currentValue)\n"
         alertMessage += "Current Target Value is : \(targetValue)"
         
