@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         // this variable to hold the slider image when it's normal
+//        let ImageNormal = UIImage(named: "")
         let ImageNormal = #imageLiteral(resourceName: "SliderThumb-Normal")
         // set image for normal state config
         mySlider.setThumbImage(ImageNormal, for: .normal)
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
         mySlider.setThumbImage(ImageHighlighted, for: .highlighted)
         
         // create insets for the bar
-        let insets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        let insets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
         // this variable hold the left image for the track
         let trackLeft = #imageLiteral(resourceName: "SliderTrackLeft")
         let trackLeftResizable =
@@ -61,6 +62,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     @IBAction func showAlert() {
         
