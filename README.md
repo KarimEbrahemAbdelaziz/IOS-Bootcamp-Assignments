@@ -15,3 +15,13 @@ and this is my [implementation](https://github.com/KarimEbrahemAbdelaziz/IOS-Boo
 
 The objective of the game is to put the bull’s eye, which is on a slider that goes from 1 to 100, as close to a randomly chosen target value as you can. In the screenshot above, the aim is to put the bull’s eye at 22. Because you can’t see the current value of the slider, you’ll have to “eyeball” it.
 
+## Third Session Assignments :
+### Complete the Bull’s Eye game UI
+I did it, but I don’t think it looks good as expected on all apple devices.
+
+### Build 4x4 Memory Game 
+I Built the UI using Stack Views and constraints to handle all devices.
+The game logic is very easy, just hold first and second image and compare them if they are the same just set them to nil, else don’t do any thing (till now).
+(There be more update on Code and logic)
+
+<img src="http://i.imgur.com/T4KPUxy.png">
