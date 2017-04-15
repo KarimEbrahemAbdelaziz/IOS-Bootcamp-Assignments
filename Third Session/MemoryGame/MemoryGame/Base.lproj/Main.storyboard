@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jdL-q3-O1l">
+                                <rect key="frame" x="20" y="28" width="335" height="631"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Xyp-e5-nwv">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="152"/>
+                                        <subviews>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="jack_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="rTx-v2-4M5">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="152"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="ALV-aC-tIJ">
+                                                <rect key="frame" x="86" y="0.0" width="77.5" height="152"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="queen_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="4el-p1-qzJ">
+                                                <rect key="frame" x="171.5" y="0.0" width="78" height="152"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="ace_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="nZL-y0-haW">
+                                                <rect key="frame" x="257.5" y="0.0" width="77.5" height="152"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Jwq-4u-EL2">
+                                        <rect key="frame" x="0.0" y="160" width="335" height="151.5"/>
+                                        <subviews>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="7_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="VLi-Zo-xJx">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="151.5"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="PQ3-Nw-abk">
+                                                <rect key="frame" x="86" y="0.0" width="77.5" height="151.5"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="3_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="g0P-24-Lys">
+                                                <rect key="frame" x="171.5" y="0.0" width="78" height="151.5"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="king_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="2Pf-kF-chc">
+                                                <rect key="frame" x="257.5" y="0.0" width="77.5" height="151.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xK9-En-7wa">
+                                        <rect key="frame" x="0.0" y="319.5" width="335" height="152"/>
+                                        <subviews>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="ace_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="jf6-bB-CkU">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="152"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="3_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="SkO-oN-eK3">
+                                                <rect key="frame" x="86" y="0.0" width="77.5" height="152"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="jack_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="kmH-fC-aFg">
+                                                <rect key="frame" x="171.5" y="0.0" width="78" height="152"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="ghr-kX-GO9">
+                                                <rect key="frame" x="257.5" y="0.0" width="77.5" height="152"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="P31-6j-3Um">
+                                        <rect key="frame" x="0.0" y="479.5" width="335" height="151.5"/>
+                                        <subviews>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="7_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="2wQ-Mx-6ga">
+                                                <rect key="frame" x="0.0" y="0.0" width="78" height="151.5"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="king_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="yH4-Ca-EsZ">
+                                                <rect key="frame" x="86" y="0.0" width="77.5" height="151.5"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="queen_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="iqy-i5-waq">
+                                                <rect key="frame" x="171.5" y="0.0" width="78" height="151.5"/>
+                                            </imageView>
+                                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="10_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="44h-hU-D9i">
+                                                <rect key="frame" x="257.5" y="0.0" width="77.5" height="151.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jdL-q3-O1l" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="1e4-Hc-FQm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jdL-q3-O1l" secondAttribute="bottom" constant="8" symbolic="YES" id="76Z-Pj-N7t"/>
+                            <constraint firstAttribute="trailing" secondItem="jdL-q3-O1l" secondAttribute="trailing" constant="20" symbolic="YES" id="VcP-YX-zxp"/>
+                            <constraint firstItem="jdL-q3-O1l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="bDM-Nd-U7v"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="myImages" destination="rTx-v2-4M5" collectionClass="NSMutableArray" id="8O1-yu-60u"/>
+                        <outletCollection property="myImages" destination="ALV-aC-tIJ" collectionClass="NSMutableArray" id="Xz7-od-bSb"/>
+                        <outletCollection property="myImages" destination="4el-p1-qzJ" collectionClass="NSMutableArray" id="w9W-8W-0Vb"/>
+                        <outletCollection property="myImages" destination="nZL-y0-haW" collectionClass="NSMutableArray" id="nGX-TG-b45"/>
+                        <outletCollection property="myImages" destination="VLi-Zo-xJx" collectionClass="NSMutableArray" id="nvO-O8-Jt8"/>
+                        <outletCollection property="myImages" destination="PQ3-Nw-abk" collectionClass="NSMutableArray" id="QAK-CG-akL"/>
+                        <outletCollection property="myImages" destination="g0P-24-Lys" collectionClass="NSMutableArray" id="crd-hl-GVP"/>
+                        <outletCollection property="myImages" destination="2Pf-kF-chc" collectionClass="NSMutableArray" id="AKI-7s-eAH"/>
+                        <outletCollection property="myImages" destination="ghr-kX-GO9" collectionClass="NSMutableArray" id="M35-Pd-V3T"/>
+                        <outletCollection property="myImages" destination="kmH-fC-aFg" collectionClass="NSMutableArray" id="kUp-7C-Fdl"/>
+                        <outletCollection property="myImages" destination="SkO-oN-eK3" collectionClass="NSMutableArray" id="2ap-f3-wPP"/>
+                        <outletCollection property="myImages" destination="jf6-bB-CkU" collectionClass="NSMutableArray" id="TVS-Ib-My8"/>
+                        <outletCollection property="myImages" destination="2wQ-Mx-6ga" collectionClass="NSMutableArray" id="LCj-Fb-77a"/>
+                        <outletCollection property="myImages" destination="yH4-Ca-EsZ" collectionClass="NSMutableArray" id="0yl-xW-r5g"/>
+                        <outletCollection property="myImages" destination="iqy-i5-waq" collectionClass="NSMutableArray" id="lza-iB-maX"/>
+                        <outletCollection property="myImages" destination="44h-hU-D9i" collectionClass="NSMutableArray" id="IYA-kR-QRn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.39130434782609" y="123.09782608695653"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="10_of_clubs" width="250" height="363"/>
+        <image name="3_of_diamonds" width="250" height="363"/>
+        <image name="5_of_hearts" width="250" height="363"/>
+        <image name="7_of_hearts" width="250" height="363"/>
+        <image name="ace_of_clubs" width="250" height="363"/>
+        <image name="back" width="375" height="525"/>
+        <image name="jack_of_spades" width="250" height="363"/>
+        <image name="king_of_diamonds" width="250" height="363"/>
+        <image name="queen_of_spades" width="250" height="363"/>
+    </resources>
+</document>
