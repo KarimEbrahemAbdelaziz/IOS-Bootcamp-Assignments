@@ -24,7 +24,7 @@ I Built the UI using Stack Views and constraints to handle all screen sizes.
 The game logic is very easy, just hold first and second image and compare them if they are the same just set them to nil, else don’t do any thing (till now).
 (There be more update on Code and logic)
 
-<img src="http://i.imgur.com/T4KPUxy.png" height=“350”>
+<img src="http://i.imgur.com/T4KPUxy.png" height="568">
 
 ## Session 4 Assignment :
 ### Build 4x4 Memory Game (Using Constraints) : [The Project](https://github.com/KarimEbrahemAbdelaziz/IOS-Bootcamp-Assignments/tree/master/Forth%20Session%20/MemoryGame%20Using%20Constraints)
