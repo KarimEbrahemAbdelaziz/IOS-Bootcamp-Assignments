@@ -39,6 +39,13 @@ class ViewController: UIViewController {
         if let tappedImage = tapGestureRecognizer.view as? UIImageView {
             if tappedImage.image == #imageLiteral(resourceName: "back") && counter < 2{
                 tappedImage.image = tappedImage.highlightedImage
+                
+                UIView.transition(with: tappedImage,
+                                  duration: 1,
+                                  options: .transitionFlipFromLeft,
+                                  animations: { tappedImage.image = tappedImage.highlightedImage },
+                                  completion: nil)
+                
                 counter += 1
                 if counter == 1 {
                     firstImage = tappedImage
@@ -58,6 +65,13 @@ class ViewController: UIViewController {
                 }
             } else if tappedImage.image == tappedImage.highlightedImage {
                 tappedImage.image = #imageLiteral(resourceName: "back")
+                
+                UIView.transition(with: tappedImage,
+                                  duration: 1,
+                                  options: .transitionFlipFromRight,
+                                  animations: { tappedImage.image = #imageLiteral(resourceName: "back") },
+                                  completion: nil)
+                
                 counter -= 1
                 if counter == 0 {
                     firstImage = nil

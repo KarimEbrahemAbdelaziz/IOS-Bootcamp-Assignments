@@ -21,52 +21,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="QwN-Yf-1ae">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="10_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="QwN-Yf-1ae">
                                 <rect key="frame" x="20" y="28" width="78" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="jMi-pX-6x5">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="jMi-pX-6x5">
                                 <rect key="frame" x="106" y="28" width="77.5" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="NlC-zv-btF">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="NlC-zv-btF">
                                 <rect key="frame" x="191.5" y="28" width="78" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="jZW-7n-ifn">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="ace_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="jZW-7n-ifn">
                                 <rect key="frame" x="277.5" y="28" width="77.5" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="gwE-7d-2Kl">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="queen_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="gwE-7d-2Kl">
                                 <rect key="frame" x="20" y="188" width="78" height="151.5"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="Oti-Gr-fdl">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="queen_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="Oti-Gr-fdl">
                                 <rect key="frame" x="106" y="188" width="77.5" height="151.5"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="88h-wm-SIp">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="jack_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="88h-wm-SIp">
                                 <rect key="frame" x="191.5" y="188" width="78" height="151.5"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="dUL-Id-O8P">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="ace_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="dUL-Id-O8P">
                                 <rect key="frame" x="277.5" y="188" width="77.5" height="151.5"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="vWY-eJ-01d">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="ace_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="vWY-eJ-01d">
                                 <rect key="frame" x="20" y="347.5" width="78" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="BMb-hy-Z7V">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="jack_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="BMb-hy-Z7V">
                                 <rect key="frame" x="106" y="347.5" width="77.5" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="gnv-hD-ekf">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="queen_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="gnv-hD-ekf">
                                 <rect key="frame" x="191.5" y="347.5" width="78" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="iBQ-jR-DN9">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="queen_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="iBQ-jR-DN9">
                                 <rect key="frame" x="277.5" y="347.5" width="77.5" height="152"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="J7d-Va-8Lg">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="ace_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="J7d-Va-8Lg">
                                 <rect key="frame" x="20" y="507.5" width="78" height="151.5"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="uDW-Kc-r4v">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="5_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="uDW-Kc-r4v">
                                 <rect key="frame" x="106" y="507.5" width="77.5" height="151.5"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="ctv-kY-JM5">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="10_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="ctv-kY-JM5">
                                 <rect key="frame" x="191.5" y="507.5" width="78" height="151.5"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="05H-AK-1oS">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="10_of_diamonds" translatesAutoresizingMaskIntoConstraints="NO" id="05H-AK-1oS">
                                 <rect key="frame" x="277.5" y="507.5" width="77.5" height="151.5"/>
                             </imageView>
                         </subviews>
@@ -149,6 +149,24 @@
                             <constraint firstItem="NlC-zv-btF" firstAttribute="leading" secondItem="jMi-pX-6x5" secondAttribute="trailing" constant="8" symbolic="YES" id="zuC-UR-y2p"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="myImages" destination="QwN-Yf-1ae" collectionClass="NSMutableArray" id="uxw-OJ-eZk"/>
+                        <outletCollection property="myImages" destination="jMi-pX-6x5" collectionClass="NSMutableArray" id="M4i-2K-uU5"/>
+                        <outletCollection property="myImages" destination="NlC-zv-btF" collectionClass="NSMutableArray" id="a3c-0b-FnA"/>
+                        <outletCollection property="myImages" destination="jZW-7n-ifn" collectionClass="NSMutableArray" id="NNk-lO-Gob"/>
+                        <outletCollection property="myImages" destination="gwE-7d-2Kl" collectionClass="NSMutableArray" id="J3y-Lp-hyP"/>
+                        <outletCollection property="myImages" destination="Oti-Gr-fdl" collectionClass="NSMutableArray" id="hBE-6d-nV7"/>
+                        <outletCollection property="myImages" destination="88h-wm-SIp" collectionClass="NSMutableArray" id="8ia-nY-quZ"/>
+                        <outletCollection property="myImages" destination="dUL-Id-O8P" collectionClass="NSMutableArray" id="8nt-1i-oaA"/>
+                        <outletCollection property="myImages" destination="vWY-eJ-01d" collectionClass="NSMutableArray" id="hbY-2m-nja"/>
+                        <outletCollection property="myImages" destination="BMb-hy-Z7V" collectionClass="NSMutableArray" id="ubN-tM-tLJ"/>
+                        <outletCollection property="myImages" destination="gnv-hD-ekf" collectionClass="NSMutableArray" id="ORb-pB-ema"/>
+                        <outletCollection property="myImages" destination="iBQ-jR-DN9" collectionClass="NSMutableArray" id="bmm-V9-tuz"/>
+                        <outletCollection property="myImages" destination="J7d-Va-8Lg" collectionClass="NSMutableArray" id="TPh-e9-bF9"/>
+                        <outletCollection property="myImages" destination="uDW-Kc-r4v" collectionClass="NSMutableArray" id="geb-Wd-66T"/>
+                        <outletCollection property="myImages" destination="ctv-kY-JM5" collectionClass="NSMutableArray" id="gwa-xz-tzH"/>
+                        <outletCollection property="myImages" destination="05H-AK-1oS" collectionClass="NSMutableArray" id="lMV-ny-Nfm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -156,6 +174,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="10_of_diamonds" width="250" height="363"/>
+        <image name="10_of_spades" width="250" height="363"/>
+        <image name="5_of_hearts" width="250" height="363"/>
+        <image name="ace_of_hearts" width="250" height="363"/>
+        <image name="ace_of_spades" width="250" height="363"/>
         <image name="back" width="375" height="525"/>
+        <image name="jack_of_clubs" width="250" height="363"/>
+        <image name="queen_of_hearts" width="250" height="363"/>
+        <image name="queen_of_spades" width="250" height="363"/>
     </resources>
 </document>
