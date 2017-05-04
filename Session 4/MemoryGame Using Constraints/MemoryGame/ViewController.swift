@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         setTouchActionForImages()
     }
     
@@ -44,25 +43,10 @@ class ViewController: UIViewController {
                                   duration: 1,
                                   options: .transitionFlipFromLeft,
                                   animations: { tappedImage.image = tappedImage.highlightedImage },
-                                  completion: nil)
+                                  completion: {(Bool) -> Void in
+                                    self.checkTheSame(tappedImage: tappedImage)
+                })
                 
-                counter += 1
-                if counter == 1 {
-                    firstImage = tappedImage
-                } else if counter == 2 {
-                    secondImage = tappedImage
-                    // if two image are the same
-                    if firstImage?.image == secondImage?.image {
-                        firstImage?.image = nil
-                        secondImage?.image = nil
-                        counter = 0
-                        // else if the two are different
-                    } else {
-                        //firstImage?.image = #imageLiteral(resourceName: "back")
-                        //secondImage?.image = #imageLiteral(resourceName: "back")
-                        //counter = 0
-                    }
-                }
             } else if tappedImage.image == tappedImage.highlightedImage {
                 tappedImage.image = #imageLiteral(resourceName: "back")
                 
@@ -73,13 +57,47 @@ class ViewController: UIViewController {
                                   completion: nil)
                 
                 counter -= 1
-                if counter == 0 {
-                    firstImage = nil
-                    secondImage = nil
-                }else if counter == 1 {
-                    firstImage = secondImage
-                    secondImage = nil
-                }
+            }
+        }
+    }
+    
+    func checkTheSame(tappedImage: UIImageView){
+        counter += 1
+        if counter == 1 {
+            firstImage = tappedImage
+        } else if counter == 2 {
+            secondImage = tappedImage
+            // if two image are the same
+            if firstImage?.image == secondImage?.image {
+                UIView.transition(with: (firstImage)!,
+                                  duration: 2,
+                                  options: .transitionCurlUp,
+                                  animations: { self.firstImage?.image = nil },
+                                  completion: nil)
+                
+                UIView.transition(with: (secondImage)!,
+                                  duration: 2,
+                                  options: .transitionCurlUp,
+                                  animations: { self.secondImage?.image = nil },
+                                  completion: nil)
+                
+                counter = 0
+                // else if the two are different
+            } else {
+                
+                UIView.transition(with: (firstImage)!,
+                                  duration: 1,
+                                  options: .transitionFlipFromRight,
+                                  animations: { self.firstImage?.image = #imageLiteral(resourceName: "back") },
+                                  completion: nil)
+                
+                UIView.transition(with: (secondImage)!,
+                                  duration: 1,
+                                  options: .transitionFlipFromRight,
+                                  animations: { self.secondImage?.image = #imageLiteral(resourceName: "back") },
+                                  completion: nil)
+                
+                counter = 0
             }
         }
     }
@@ -87,7 +105,6 @@ class ViewController: UIViewController {
     func setGestureRecognizer() -> UITapGestureRecognizer {
         var tapRecognizer = UITapGestureRecognizer()
         tapRecognizer = UITapGestureRecognizer (target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
-        //tapRecognizer.numberOfTapsRequired = 3
         return tapRecognizer
     }
 }

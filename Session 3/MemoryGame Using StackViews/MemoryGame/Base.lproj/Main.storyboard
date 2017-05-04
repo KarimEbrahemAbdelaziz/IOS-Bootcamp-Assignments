@@ -21,10 +21,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jdL-q3-O1l">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="jdL-q3-O1l" userLabel="All Images Stack View">
                                 <rect key="frame" x="20" y="28" width="335" height="631"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Xyp-e5-nwv">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Xyp-e5-nwv" userLabel="First Row Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="152"/>
                                         <subviews>
                                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="jack_of_spades" translatesAutoresizingMaskIntoConstraints="NO" id="rTx-v2-4M5">
@@ -41,7 +41,7 @@
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Jwq-4u-EL2">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Jwq-4u-EL2" userLabel="Second Row Stack View">
                                         <rect key="frame" x="0.0" y="160" width="335" height="151.5"/>
                                         <subviews>
                                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="7_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="VLi-Zo-xJx">
@@ -58,7 +58,7 @@
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xK9-En-7wa">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xK9-En-7wa" userLabel="Third Row Stack View">
                                         <rect key="frame" x="0.0" y="319.5" width="335" height="152"/>
                                         <subviews>
                                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="ace_of_clubs" translatesAutoresizingMaskIntoConstraints="NO" id="jf6-bB-CkU">
@@ -75,7 +75,7 @@
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="P31-6j-3Um">
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="P31-6j-3Um" userLabel="Forth Row Stack View">
                                         <rect key="frame" x="0.0" y="479.5" width="335" height="151.5"/>
                                         <subviews>
                                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" highlightedImage="7_of_hearts" translatesAutoresizingMaskIntoConstraints="NO" id="2wQ-Mx-6ga">
